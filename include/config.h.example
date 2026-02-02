@@ -1,0 +1,21 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi Configuration
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "PASS"
+
+// SMTP Configuration (Gmail)
+#define SMTP_HOST "smtp.gmail.com"
+#define SMTP_PORT 465
+#define SMTP_USER "sender@gmail.com"
+#define SMTP_PASSWORD "PASSWORD"  // Gmail App Password
+
+// Email Configuration
+#define EMAIL_RECIPIENT "recipient@gmail.com"
+#define EMAIL_SUBJECT_PREFIX "[Printer]"
+
+#endif  // CONFIG_H
+
+// Debugging
+// #define SEND_TEST_EMAIL_ON_BOOT

@@ -1,0 +1,4 @@
+.pio
+.vscode
+.venv
+include/config.h
